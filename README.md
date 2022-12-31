@@ -12,7 +12,8 @@ $ npm install
 $ npm run start:dev
 ```
 
-Then navigate to *localhost:8000* to choose a topic
+Then navigate to *localhost:8000* to choose a topic<br/>
+*Note: you'll have to configure your KAFKA settings first, (inside /src/config.ts), otherwise you'll get error 500 after choosing a topic*
 
 ## Customization
 
