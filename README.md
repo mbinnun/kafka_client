@@ -14,3 +14,11 @@ $ npm run start:dev
 ## Customization
 
 Edit the file *config.ts* from the /src folder to your needs
+
+## Local KAFKA Environment
+
+For testing purposes, you may want to build your local KAFKA environment, by running:
+
+```bash
+$ docker-compose -f docker-compose.yml up -d
+```
