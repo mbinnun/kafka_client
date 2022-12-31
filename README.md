@@ -1,6 +1,6 @@
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Show KAFKA messages from a remote instance
 
 ## Installation
 
