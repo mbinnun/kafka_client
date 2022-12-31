@@ -1,6 +1,6 @@
 ## Description
 
-Show KAFKA messages from a remote instance (NestJS based)<br/>
+Show KAFKA messages from a remote instance, in a web page (NestJS based)<br/>
 *Note: requires NodeJS 16 and above*
 
 ## Installation
@@ -11,9 +11,13 @@ $ cd kafka_client
 $ npm install
 $ npm run start:dev
 ```
+
+Then navigate to *localhost:8000* to choose a topic
+
 ## Customization
 
-Edit the file *config.ts* from the /src folder to your needs
+Edit the file *config.ts* from the /src folder to edit the KAFKA configuration your needs<br/>
+Edit the file *enums.ts* from the /src folder to define the topics for scanning
 
 ## Local KAFKA Environment
 
